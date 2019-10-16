@@ -4,6 +4,11 @@ This is a fork from [jeduan/cordova-plugin-facebook4](https://github.com/jeduan/
 
 > Use Facebook SDK version 4 in Cordova projects
 
+#### To update the plugin with jeduan/cordova-plugin-facebook4
+
+- For iOS, merge jeduan/cordova-plugin-facebook4, they will use updated iOS SDK
+- For Android, update facebook-android-sdk version in build.gradle. We use a build.gradle file to be able to exclude com.google.zxing.
+
 ## Installation
 
 See npm package for versions - https://www.npmjs.com/package/cordova-plugin-facebook4
